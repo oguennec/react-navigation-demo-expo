@@ -21,7 +21,7 @@
       return (
         <Button
           onPress={() => this.props.navigation.navigate('Notifications')}
-          title="Notifications"
+          title="Chat"
         />
       );
     }
@@ -37,7 +37,7 @@
       return (
         <Button
           onPress={() => this.props.navigation.goBack()}
-          title="Chat"
+          title="Notifications"
         />
       );
     }
